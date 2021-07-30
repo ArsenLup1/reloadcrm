@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import { Container } from "react-bootstrap";
 import "./App.css";
 import SectionLogoLogin from "../src/Components/Molecules/SectionLogoLogin";
