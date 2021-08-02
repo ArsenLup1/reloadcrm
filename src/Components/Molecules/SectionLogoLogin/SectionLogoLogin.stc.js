@@ -8,9 +8,11 @@ const SectionloginLogoStc=Styled(Row)`
 .app{
     background-image: url("/LogoCrm.jpg");
     border-raduis: .8rem;
-    width: 34rem;
+    //width: 34rem;
     height: 40rem;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right 45px bottom;;
 }
 `;
 export default SectionloginLogoStc;
