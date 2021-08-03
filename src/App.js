@@ -5,13 +5,13 @@ import LoginForm from "../src/Components/Atomes/Login/loginForm";
 
 function App() {
     return ( 
-    <Container className = "p-5" >
-        <div className="row rounded">
-            <div className="col-sm mb-2">
+    <Container className="p-5" >
+        <div className="row rounded ranger">
+            <div className="col-lg mb-2">
                 <SectionLogoLogin />
             </div>
 
-            <div className="col-sm mb-2">
+            <div className="col-lg mb-2">
                 <LoginForm />
             </div>
         </div>

@@ -4,14 +4,17 @@ import LoginFormStc from './loginForm.stc';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Row from 'react-bootstrap/Row';
 import { Button } from 'react-bootstrap';
-//import 
+import avatar from '../../../img/avatar.png'; 
 
 const LoginForm = () => {
 
     return ( 
     <Row className="mx-auto h-100 rounded">
-        <div className="col-lg-12 text-center my-3 mt-5">
-            <h1>Connexion</h1>
+        <div className='col-lg-12 align-middle pt-5 login'>
+            <img src={avatar} className="rounded thumbnail" alt="logo" width="400px" />
+        </div>
+        <div className="col-lg-12 align-middle">
+            <h1 className='mt-5'>Connexion</h1>
         </div>
         <Form className="mb-3">
             <Form.Group className = "mb-3" controlId = "formBasicEmail" >

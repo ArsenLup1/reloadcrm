@@ -4,15 +4,17 @@ import { Row } from 'reactstrap';
 const SectionloginLogoStc=Styled(Row)`
     
     border-raduis: .8rem;
+    width: 100%;
+    overflow: hidden;
+
+.login{
+    display: flex;
+    justify-content: center;
+}
 
 .app{
-    background-image: url("/LogoCrm.jpg");
+    //background-image: url("/logoCrm.jpg");
     border-raduis: .8rem;
-    //width: 34rem;
-    height: 40rem;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: right 45px bottom;;
-}
+    width: 34rem;
 `;
 export default SectionloginLogoStc;
