@@ -1,17 +1,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import { Image } from 'react-bootstrap';
-//import logo512 from './logo512.png'; 
 import Logo_CRM from "../../../img/Logo_CRM.png";
-//import logo from '../../../logo.svg';
 import SectionloginLogoStc from "./SectionLogoLogin.stc";
 
 const SectionLogoLogin = () => {
 
     return ( 
         <SectionloginLogoStc>
-            <div className="col-md-6 app d-flex">
-              <img src={Logo_CRM} className="rounded thumbnail" alt="logo" width="400px"/>
+            <div className="col-lg-12 align-middle d-flex justify-content-center">
+              <img src={Logo_CRM} className="rounded thumbnail pt-5 mt-5" alt="logo" width="400px"/>
             </div>
         </SectionloginLogoStc>
 

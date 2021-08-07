@@ -1,11 +1,13 @@
-import { Container } from "react-bootstrap";
+import React from 'react';
+import Dash from './Dash';
 import "./App.css";
 import SectionLogoLogin from "../src/Components/Molecules/SectionLogoLogin";
 import LoginForm from "../src/Components/Atomes/Login/loginForm";
+import { Router, Link } from 'react-router-dom';
 
 function App() {
     return ( 
-    <Container className="p-5" >
+    <div className="container p-5" >
         <div className="row rounded ranger">
             <div className="col-lg mb-2">
                 <SectionLogoLogin />
@@ -15,7 +17,8 @@ function App() {
                 <LoginForm />
             </div>
         </div>
-    </Container>
+        
+    </div>
     );
 }
 
