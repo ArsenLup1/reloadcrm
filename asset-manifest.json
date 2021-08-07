@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/reloadcrm/static/css/main.a6b6beff.chunk.css",
+    "main.js": "/reloadcrm/static/js/main.a5e02956.chunk.js",
+    "main.js.map": "/reloadcrm/static/js/main.a5e02956.chunk.js.map",
+    "runtime-main.js": "/reloadcrm/static/js/runtime-main.7e52df02.js",
+    "runtime-main.js.map": "/reloadcrm/static/js/runtime-main.7e52df02.js.map",
+    "static/css/2.9082872e.chunk.css": "/reloadcrm/static/css/2.9082872e.chunk.css",
+    "static/js/2.da563bc6.chunk.js": "/reloadcrm/static/js/2.da563bc6.chunk.js",
+    "static/js/2.da563bc6.chunk.js.map": "/reloadcrm/static/js/2.da563bc6.chunk.js.map",
+    "static/js/3.bb56f094.chunk.js": "/reloadcrm/static/js/3.bb56f094.chunk.js",
+    "static/js/3.bb56f094.chunk.js.map": "/reloadcrm/static/js/3.bb56f094.chunk.js.map",
+    "index.html": "/reloadcrm/index.html",
+    "static/css/2.9082872e.chunk.css.map": "/reloadcrm/static/css/2.9082872e.chunk.css.map",
+    "static/css/main.a6b6beff.chunk.css.map": "/reloadcrm/static/css/main.a6b6beff.chunk.css.map",
+    "static/js/2.da563bc6.chunk.js.LICENSE.txt": "/reloadcrm/static/js/2.da563bc6.chunk.js.LICENSE.txt",
+    "static/media/Logo_CRM.52e9aacd.png": "/reloadcrm/static/media/Logo_CRM.52e9aacd.png",
+    "static/media/avatar.721005d4.png": "/reloadcrm/static/media/avatar.721005d4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e52df02.js",
+    "static/css/2.9082872e.chunk.css",
+    "static/js/2.da563bc6.chunk.js",
+    "static/css/main.a6b6beff.chunk.css",
+    "static/js/main.a5e02956.chunk.js"
+  ]
+}
