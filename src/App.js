@@ -12,7 +12,7 @@ function App() {
             <div className="col-lg mb-2">
                 <SectionLogoLogin />
             </div>
-
+  
             <div className="col-lg mb-2">
                 <LoginForm />
             </div>
