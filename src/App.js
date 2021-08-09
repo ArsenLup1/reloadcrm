@@ -1,21 +1,16 @@
-import { Container } from "react-bootstrap";
+import React from 'react';
+import Dash from './Dash';
 import "./App.css";
 import SectionLogoLogin from "../src/Components/Molecules/SectionLogoLogin";
 import LoginForm from "../src/Components/Atomes/Login/loginForm";
+import { Router, Link } from 'react-router-dom';
+import MenuLateral from './Components/Atomes/MenuLatteral';
 
 function App() {
     return ( 
-    <Container className = "p-5" >
-        <div className="row rounded">
-            <div className="col-sm mb-2">
-                <SectionLogoLogin />
-            </div>
-
-            <div className="col-sm mb-2">
-                <LoginForm />
-            </div>
-        </div>
-    </Container>
+    <div className="container mx-auto" >
+        <MenuLateral />
+    </div>
     );
 }
 

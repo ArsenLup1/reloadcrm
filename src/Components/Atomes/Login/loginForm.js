@@ -4,23 +4,26 @@ import LoginFormStc from './loginForm.stc';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Row from 'react-bootstrap/Row';
 import { Button } from 'react-bootstrap';
-//import 
+import avatar from '../../../img/avatar.png'; 
 
 const LoginForm = () => {
 
     return ( 
     <Row className="mx-auto h-100 rounded">
-        <div className="col-lg-12 text-center my-3 mt-5">
-            <h1>Connexion</h1>
+        <div className='col-lg-12 align-middle d-flex justify-content-center pt-5 login'>
+            <img src={avatar} className="rounded thumbnail" alt="logo" width="400px" />
+        </div>
+        <div className="col-lg-12 align-middle d-flex justify-content-center sign-in">
+            <h1 className='mt-5'>Connexion</h1>
         </div>
         <Form className="mb-3">
             <Form.Group className = "mb-3" controlId = "formBasicEmail" >
-            <Form.Label > Email address </Form.Label> 
-            <Form.Control type = "email" placeholder = "Enter email" />
+            <Form.Label >  </Form.Label> 
+            <Form.Control type = "email" placeholder = "login" />
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formBasicPassword">
-                <Form.Label>Password</Form.Label>
+                <Form.Label></Form.Label>
                 <Form.Control type="password" placeholder="Password" />
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicCheckbox">
