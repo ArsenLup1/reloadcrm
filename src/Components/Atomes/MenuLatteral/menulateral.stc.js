@@ -93,7 +93,7 @@ main {
 }
 
 .main__container{
-    padding: 20px 50px;
+    padding: 60px 50px 0;
 }
 
 .main__title{
@@ -133,6 +133,7 @@ main {
     justify-content: space-around;
     height: 70px;
     padding: 25px;
+    cursor: pointer;
     background: #000;
     box-shadow: 5px 5px 13px #ededed, 
                 -5px -5px 13px #ffffff;
