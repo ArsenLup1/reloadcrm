@@ -87,7 +87,7 @@ a{
 }
 
 main {
-    background: #f3f4f6;
+    background: #fff;
     grid-area: main;
     overflow-y: auto;
 }
@@ -139,10 +139,14 @@ main {
                 -5px -5px 13px #ffffff;
 }
 
+.card:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
 .card__inner{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .card__inner > span {
@@ -246,6 +250,11 @@ main {
     font-size: 14px;
 }
 
+.card1:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
 .card2{
     background: #d2f9ee;
     color: #38e1b0;
@@ -253,6 +262,11 @@ main {
     padding: 25px;
     border-radius: 5px;
     font-size: 14px;
+}
+
+.card2:hover{
+    transform: scale(1.1);
+    transition: .5s;
 }
 
 .card3{
@@ -264,6 +278,11 @@ main {
     font-size: 14px;
 }
 
+.card3:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
 .card4{
     background: #fddcdf;
     color: #f65a6f;
@@ -271,6 +290,11 @@ main {
     padding: 25px;
     border-radius: 5px;
     font-size: 14px;
+}
+
+.card4:hover{
+    transform: scale(1.1);
+    transition: .5s;
 }
 
 #sidebar{
@@ -365,7 +389,7 @@ main {
     position: absolute;
 }
 
-.text-primary-p{
+.text-primari-p{
     color: #a5aaad;
     font-size: 14px;
     font-weight: 700;

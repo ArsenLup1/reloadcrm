@@ -15,6 +15,9 @@ import { BiCalendarCheck } from 'react-icons/bi';
 import callcenter from '../../../img/callcenter.png'; 
 import calll from '../../../img/calll.png'; 
 import avatarr from '../../../img/avatarr.png';
+import logo from '../../../img/logo.png';
+import bgComjob from '../../../img/bgComjob.jpg';
+import Navbar from '../Navbar';
 
 
 
@@ -37,9 +40,6 @@ const MenuLateral = () => {
                         <FiSearch className="ikons" />
                     </a>
                     <a href="#">
-                        <AiOutlineClockCircle className="ikons" />
-                    </a>
-                    <a href="#">
                         <img src={avatarr } className="rounded thumbnail" alt="logo" width="30px" />
                     </a>
                 </div>
@@ -54,7 +54,7 @@ const MenuLateral = () => {
                 <div className="main__container mx-auto">
 
                     <div className="main__title">
-                        <img src={calll} className="rounded thumbnail" alt="logo" width="300px" />
+                        <img src={logo} className="rounded thumbnail" alt="logo" width="300px" />
                         <div className="main__greeting">
                             <h1>Hello Admin</h1>
                             <p>Welcome to your dashboard CRM</p>
@@ -66,21 +66,21 @@ const MenuLateral = () => {
                     <div className="card">
                         <AiOutlineUser className="text-lightblue ikons"/>
                         <div className="card__inner">
-                            <p className="text-primary-p">ISO</p>
+                            <p className="text-primari-p">ISO</p>
                         </div>
                     </div>
 
                     <div className="card">
                         <GoCalendar className="text-red ikons"/>
                         <div className="card__inner">
-                            <p className="text-primary-p">CPF</p>
+                            <p className="text-primari-p">CPF</p>
                         </div>
                     </div>
 
                     <div className="card">
                         <AiOutlineUser className="text-black ikons"/>
                         <div className="card__inner">
-                            <p className="text-primary-p">ENEGIE</p>
+                            <p className="text-primari-p">ENEGIE</p>
                         </div>
                     </div>
 
@@ -96,7 +96,9 @@ const MenuLateral = () => {
                             </div>
                             <IoLogoUsd className="ikons" />
                         </div>
-                        <div id="chart"></div>
+                        <div id="chart">
+                            <img src={bgComjob } className="rounded thumbnail w-auto" alt="logo" width="30px" />
+                        </div>
                     </div>
 
                     <div className="charts__right">
@@ -137,9 +139,7 @@ const MenuLateral = () => {
                 <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
                 <script src="script.js"></script>
             </main>
-
-            
-            
+  
         </MenuLateralStc>
 
         )

@@ -4,7 +4,8 @@ import LoginFormStc from './loginForm.stc';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Row from 'react-bootstrap/Row';
 import { Button } from 'react-bootstrap';
-import avatar from '../../../img/avatar.png'; 
+import avatar from '../../../img/avatar.png';
+import InputGroup from '../InputGroup'; 
 
 const LoginForm = () => {
 
@@ -33,6 +34,7 @@ const LoginForm = () => {
                 Se connecter
             </Button>
         </Form>
+        
     </Row>
     )
 }
